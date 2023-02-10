@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="topLine">
+        <div>
+            <button class="up">up</button>
+            <button class="down">down</button>
+        </div>
+        <div>
+            <button class="score"></button>
+            <button class="btnTry none">Try Again</button>
+        </div>
+        <div>
+            <button class="upRight">up</button>
+            <button class="downRight">down</button>
+        </div>
+    </div>
+    <div id="ball"
+        style="position:absolute; top:100px; left:100px; width: 40px; height:40px; border-radius:20px;background-color:blue;">
+    </div>
+    <div id="bar"
+        style="position:absolute; top:200px; left:100px; width: 20px; height:200px;background-color:black; border-radius: 10px;">
+    </div>
+    <div id="barRight"
+        style="position:absolute; top:200px; right:100px; width: 20px; height:200px;background-color:black; border-radius: 10px;">
+    </div>
+    
+    <script src="main.js"></script>
+    
+    <div class="game-over none">
+        <h2>GAME OVER</h2>
+    </div>
+</body>
+
+</html>

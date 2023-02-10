@@ -1,0 +1,30 @@
+
+.game-over {
+    
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1em;
+    position: absolute; 
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.none {
+    display: none;
+}
+
+.red {
+    background-color: red;
+}
+
+.topLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
